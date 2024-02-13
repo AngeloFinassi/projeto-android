@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'game_font';
+    src: url(android/pacote-projeto-d010/fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0pxa;
+}
+
+header{
+    background-image: linear-gradient(to top, #175032, #3dda84);
+    text-align: center;
+    box-shadow: 1px 2px 11px 3px rgba(0, 0, 0, 0.438);
+    padding-top: 1px;
+    padding-bottom: 5px; 
+    margin: 0px;
+}
+
+header > h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: aliceblue;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    height: auto;
+}
+
+p#paragraph_header{
+    color: #9bc8af;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+nav{
+    text-align: left;
+    text-decoration: none;
+    
+}
+
+nav > a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+nav > a:hover{
+    color: #62f7a5;
+}
+
+main{
+    background-color: white;
+    line-height: 1.5em;
+    padding-top: 1px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 1000px;
+    min-width: 320px;
+    box-shadow: 0px 0px 17px 4px rgba(0, 0, 0, 0.473);
+    
+}
+
+h1#title{
+    color: #185b36;
+    font-family: 'game_font';
+    font-weight: normal;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+main > h2{
+    color: #185b36;
+    background-image: linear-gradient(to right, #62f7a5, white);
+    font-family: 'game_font';
+    padding-left: 10px;
+    margin: auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    margin: 20px;
+}
+
+h1{
+    text-align: left;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+section{
+    background-color: #c5ebd6;
+    border-radius: 10px;
+    box-shadow: 2px 3px 9px rgba(0, 0, 0, 0.568);
+    margin: 20px;
+}
+
+section > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: #3dc97c;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 0px;
+}
+
+section > p{
+    margin: 10px;
+}
+
+p#ant_final{
+    padding: 10px;
+}
+p#p_final{
+    padding-bottom: 20px;
+}
+
+div#left, div#right{
+    display: inline-block;
+    text-decoration: underline;
+}
+
+/*Mano era so colocar columns 2 no estilo da lista e ja dividia pqp kkkkkk, pelo menos sei mexer manos*/
+div#left > ul{
+    text-align: left;
+    margin-right: 150px;
+}
+
+div#right > ul{
+    text-align: left;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: '\2714';
+}
+
+footer{
+    color: rgb(233, 233, 233);
+    background-color: #185b36;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+}
+
+footer > p{
+    text-align: center;
+}
+
+main img{
+    display: block;
+    width: 95%;
+    margin: auto;
+}
+
+main img.pequena{
+    width: 50%;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+div#div_iframe{
+    display: block;
+    background-color: #175032;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+strong{
+    color: #3dc97c;
+    text-decoration: bold;
+}
+
+main a{
+    color: #3dc97c;
+    text-decoration: none;
+}
+
+main a:hover{
+    color: #175032;
+}
+
+main a::after{
+    content: '\1F517';
+}
