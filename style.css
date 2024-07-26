@@ -138,7 +138,6 @@ div#left, div#right{
     text-decoration: underline;
 }
 
-/*Mano era so colocar columns 2 no estilo da lista e ja dividia pqp kkkkkk, pelo menos sei mexer manos*/
 div#left > ul{
     text-align: left;
     margin-right: 150px;
